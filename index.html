@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-dark text-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="vecteezy_hacker-e-sport-logo-style_-removebg-preview.png" alt="Logo" class="img-fluid" style="width: 20%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">SEO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Cantact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Link
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item " href="#">Qoshimcha</a></li>
+                        <li><a class="dropdown-item" href="#">Boshqalar</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">SKerak boladganlar</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Link</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Qidiruv</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+        <div style="padding-left: 470px ;padding-top: 110px; background-color: rgba(192,191,194,0.56)" class="carousel-item active bg-yellow ">
+            <img src="https://static.vecteezy.com/system/resources/previews/029/711/176/non_2x/developer-with-ai-generated-free-png.png" class="d-block img-fluid w-50 ps-4 ">
+
+        </div >
+        <div style="padding-left: 470px ;padding-top: 110px; background-color: rgba(192,191,194,0.56)" class="carousel-item">
+            <img src="https://png.pngtree.com/png-vector/20231108/ourmid/pngtree-programmer-it-developer-png-image_10439724.png" class="dd-block img-fluid w-50 ps-4" alt="...">
+        </div>
+        <div style="padding-left: 470px ;padding-top: 110px; background-color: rgba(192,191,194,0.56)"  class="carousel-item  ">
+            <img src="https://www.nicepng.com/png/full/266-2666972_software-developer.png" class="dd-block img-fluid w-20 ps-4" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div>
+            <h1 class="text-center pt-3">About us</h1>
+
+            <p style="padding-left: 250px" class="d-inline-flex gap-5 text-center pt-3">
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Link with href
+                </a>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                    Link with href
+                </a>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                    Link with href
+                </a>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                    Link with href
+                </a>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample5">
+                    Link with href
+                </a>
+            </p>
+    </div>
+</div>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+    </div>
+    <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+    </div>
+    <div class="collapse" id="collapseExample3">
+        <div class="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+    </div>
+    <div class="collapse" id="collapseExample4">
+        <div class="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+    </div>
+    <div class="collapse" id="collapseExample5">
+        <div class="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+    </div>
+
+    <p>
+        <button style="margin-left: 150px" class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Toggle
+        </button>
+    </p>
+    <div style="min-height: 120px; ">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px;margin-left: 1050px">
+                Bu yerda matn juda ko'p bo'lishi mumkin. Matn o'qish uchun pastga qarab skrollash mumkin bo'ladi. Matn juda uzun bo'lsa, scroll orqali to'liq ko'rish mumkin bo'ladi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+                <br> <br>
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum.
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div style="gap: 70px; padding-left: 180px" class="row">
+            <div  class="card " style="width: 18rem;">
+                <img src="https://images.creativefabrica.com/products/previews/2024/03/08/5WxZNiBA0/2dPVJcOS0XtBIinwWjY4R4KS3JY-mobile.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.creativefabrica.com/products/previews/2024/03/08/5WxZNiBA0/2dPVJcOS0XtBIinwWjY4R4KS3JY-mobile.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.creativefabrica.com/products/previews/2024/03/08/5WxZNiBA0/2dPVJcOS0XtBIinwWjY4R4KS3JY-mobile.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Kontakt Formasi</h2>
+        <form id="contactForm">
+            <div class="mb-3">
+                <label for="firstName" class="form-label">Ism</label>
+                <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">Familiya</label>
+                <input type="text" class="form-control" id="lastName" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Parol</label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Yuborish</button>
+        </form>
+        <div id="errorMessage" class="alert alert-danger mt-3 d-none"></div>
+    </div>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const firstName = document.getElementById('firstName').value.trim();
+            const lastName = document.getElementById('lastName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value.trim();
+            const errorMessage = document.getElementById('errorMessage');
+
+             if (!firstName || !lastName || !email || !password) {
+                errorMessage.textContent = "Toldirmadingiz!";
+                errorMessage.classList.remove('d-none');
+            } else {
+                errorMessage.classList.add('d-none');
+                 alert("Forma muvaffaqiyatli yuborildi!");
+                 document.getElementById('contactForm').reset();
+            }
+        });
+    </script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
